@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+
+.menu {
+  display: flex;
+  font-size: 45px;
+  color: red;
+  background-color: #ffffff;
+}
+
+.opcoes a {
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  margin-left: 2rem;
+  padding-left: 0.50rem;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: red;
+  width: 190px;
+  border-radius: 15px;
+}
+
+.quemsomos h2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+  color: red;
+  padding-top: 2rem;
+}
+
+.quemsomos p {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 40px;
+  margin-top: 4rem;
+  color: #ffffff;
+}
+
+.promocoes h2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+  color: red;
+  padding-top: 10rem;
+}
+
+.promocoes img {
+  display: flex;
+  height: 500px;
+  padding-left: 35rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.promocoes h3 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+  color: red;
+  padding-top: 2rem;
+}
+
+.promocoes p {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.cardapio h1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 50px;
+  color: red;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.cardapio img {
+  display: flex;
+  height: 600px;
+  padding-left: 30rem;
+  padding-bottom: 3rem;
+}
+
+.contato a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: red;
+  width: 180px;
+  margin-bottom: 2rem;
+  margin-left: 53rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 40px;
+  border-radius: 10px;
+}
+
+.contato2 a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: red;
+  width: 180px;
+  margin-bottom: 2rem;
+  margin-left: 53rem;
+  padding-left: 1rem;
+  font-size: 40px;
+  border-radius: 10px;
+}
+
+.endereco p {
+  display: flex;
+  font-size: 45px;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
