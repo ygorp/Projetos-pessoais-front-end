@@ -108,18 +108,109 @@ img {
 }
 
 .premium2 {
-  background: #ffffff;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 .premium2 h1 {
   display: flex;
   justify-content: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   font-size: 50px;
+  font-family: sans-serif;
 }
 
-.premium2 > img {
-  height: 280px;
-  margin-left: 10rem;
+.premium2 img {
+margin-left: 15rem;
+height: 210px;
+}
+
+.premium3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.premium3 h1 {
+  color: black;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+.premium3 p {
+  color: black;
+  padding-top: 1rem;
+  font-size: 20px;
+}
+
+.imagens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagens img {
+  height: 1.5rem;
+  margin-top: 1rem;
+}
+
+.imagens a {
+  margin-top: 2rem;
+  color: black;
+  text-decoration: underline;
+}
+
+.planos {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  flex-direction: row;
+  box-shadow: rgb(0 0 0 / 30%) 0px 0px 8px;
+  margin: 0px 16px 0px 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  margin-top: 5rem;
+  width: 250px;
+  height: 950px;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.planos .um {
+  background: #1E90FF;
+  border-radius: 5px;
+  width: 180px;
+  height: 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.planos .dois {
+  padding-bottom: 1rem;
+}
+
+.planos h1 {
+  padding-bottom: 1rem;
+}
+
+.planos .tres {
+  padding-bottom: 1rem;
+}
+
+.planos .quatro {
+  padding-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+button {
+  background: black;
+  color: #ffffff;
+  height: 3rem;
+  width: 10rem;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  cursor: pointer;
 }
