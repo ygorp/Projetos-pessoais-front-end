@@ -118,13 +118,14 @@ img {
   margin-top: 1rem;
 }
 
-.paragrafo p {
+.paragrafo a {
   display: flex;
   text-align: center;
   justify-content: center;
   position: relative;
-  left: 180px;
+  left: 195px;
   bottom: 20px;
+  color: #1d1e20;
   text-decoration: underline;
 }
 
