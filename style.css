@@ -1,169 +1,125 @@
 * {
   margin: 0px;
   padding: 0px;
-  border: 0;
-  box-sizing: border-box;
-  list-style: none;
-  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  background: black;
+  justify-content: space-around;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 40px;
   font-family: sans-serif;
 }
 
-a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.header span {
-  font-size: 40px;
-  color: #ffffff;
-}
-
 img {
-  height: 4rem;  
+  height: 50px;
 }
 
-.header {
-  background: #1d1e20;
+.menu ul {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 20px;
   align-items: center;
+  list-style: none;
 }
 
-
-.menu li {
-  margin-left: 10px;
+.menu p {
+  color: #ffffff;
 }
 
-.menu li a {
-  padding: 10px;
+.menu a {
+  color: #ffffff;
+  margin: 25px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.menu a:hover {
+  color: #7CFC00;
+  transform: 3s ease-in-out; 
 }
 
 .premium {
-  background-color: #4169E1;
-  padding: 90px 350px;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: #1E90FF;
+  padding: 100px;
+  
 }
 
 .premium h1 {
+  padding-left: 13rem;
   color: #ffffff;
   font-size: 40px;
-  margin-top: -30px;
+  padding-bottom: 1rem;
+}
+
+.premium h2 {
+  padding-left: 13rem;
+  color: #ffffff;
+  padding-bottom: 3rem;
+}
+
+.botao1 {
+  margin-left: 13rem;
+  background: black;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  font-family: sans-serif;
+  height: 3rem;
+  width: 13rem;
+  margin-bottom: 2rem;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.botao2 {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: sans-serif;
+  height: 3rem;
+  width: 13rem;
+  border-radius: 18px;
+  cursor: pointer; 
+}
+
+.botao2:hover {
+  background: rgba(0, 0, 0, 0.1);
+  transform: 3s ease-in-out; 
+}
+
+.premium a {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 .premium p {
-  color: white;
-  margin-bottom: 3rem;
-}
-
-.premium button {
-  border-radius: 25px;
-  height: 3rem;
-  width: 10rem;
-  background-color: #1d1e20;
-  color: #ffffff;
-  box-shadow: rgba(0, 0, 0, 0.5);
-  text-shadow: rgba(0, 0, 0, 0.5);
-  cursor: pointer;
-}
-
-.termos {
-  margin-top: 4rem;
+  margin-left: 13rem;
   font-size: 15px;
+  font-family: sans-serif;
 }
 
-.termos span {
-  text-decoration: underline;
-}
-
-.serpremium h2 {
-  text-align: center;
-  font-size: 60px;
-}
-
-.img > div {
+.premium2 h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 50px;
 }
 
-.img img {
-  height: 350px;
-  background-color: #ffffff;
-}
-
-.pagamento > h2 {
+.premium2 img {
   display: flex;
-  text-align: center;
-  justify-content: center;
-  font-size: 60px;
-  margin-bottom: 0;
-}
-
-.pagamento > p {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-}
-
-.logos > section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.logos img {
-  height: 25px;
-  margin-left: 1rem;
-  margin-top: 1rem;
-}
-
-.paragrafo a {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  position: relative;
-  left: 195px;
-  bottom: 20px;
-  color: #1d1e20;
-  text-decoration: underline;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
-  margin-left: 0px;
-  margin-right: 16px;
-  margin-top: 0px;
-  max-width: 400px;
-  overflow-wrap: break-word;
-  padding-bottom: 16px;
-  padding-inline-start: 16px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 20px;
-  text-align: left;
-  width: 237px;
-}
-
-.container h3 {
-  font-size: 18px;
-  background-color: #4169E1;
-  border-radius: 5px;
-}
-
-.container p {
-  font-size: 16px;
-}
-
-.container > button {
-  border-radius: 25px;
-  height: 3rem;
-  width: 10rem;
-  background-color: #1d1e20;
-  color: #ffffff;
-  box-shadow: rgba(0, 0, 0, 0.5);
-  text-shadow: rgba(0, 0, 0, 0.5);
-  cursor: pointer;
+  
 }
