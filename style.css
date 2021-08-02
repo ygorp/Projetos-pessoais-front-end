@@ -48,11 +48,8 @@ img {
 
 .premium {
   display: flex;
-  height: 100%;
-  width: 100%;
   background: #1E90FF;
   padding: 100px;
-  
 }
 
 .premium h1 {
@@ -110,6 +107,10 @@ img {
   font-family: sans-serif;
 }
 
+.premium2 {
+  background: #ffffff;
+}
+
 .premium2 h1 {
   display: flex;
   justify-content: center;
@@ -118,8 +119,7 @@ img {
   font-size: 50px;
 }
 
-.imagens section img {
-  align-items: center;
-  justify-content: center;
-  height: 50px;
+.premium2 > img {
+  height: 280px;
+  margin-left: 10rem;
 }
