@@ -112,14 +112,14 @@ img {
 
 .premium2 h1 {
   display: flex;
-  align-items: center;
   justify-content: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-size: 50px;
 }
 
-.premium2 img {
-  display: flex;
-  
+.imagens section img {
+  align-items: center;
+  justify-content: center;
+  height: 50px;
 }
