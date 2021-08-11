@@ -163,16 +163,15 @@ height: 210px;
 }
 
 .planos {
-  display: inline-block;
+  display: inline-flex;
   background-color: rgb(255, 255, 255);
   box-shadow: rgb(0 0 0 / 30%) 0px 0px 8px;
-  margin: 0px 16px 0px 0px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 16px;
-  margin-top: 5rem;
-  height: 800px;
-  width: 350px;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  margin-left: 70px; 
+  padding: 2rem;  
+  height: 750px;
+  width: 300px;
   font-family: sans-serif;
 }
 
@@ -182,21 +181,23 @@ height: 210px;
   border-radius: 5px;
   width: 180px;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .planos .dois {
+  margin-bottom: 2rem;
 } 
 
 .planos h1 {
-  
+  margin-bottom: 2rem;  
 }
 
 .planos .tres {
- 
+  margin-bottom: 2rem;
 }
 
 .planos .quatro {
- 
+  margin-bottom: 2rem;
 }
 
 button {
@@ -206,4 +207,5 @@ button {
   width: 10rem;
   border-radius: 20px;
   cursor: pointer;
+  margin-bottom: 1.5rem;
 }
